@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------
+Données mensuelles d'indice d'humidité des sols pour le dispositif CATNAT
+
+sur la période 01/1969 - 12/2021
+
+sur le domaine France métropole.
+
+40 fichiers au format csv, 250 mailles par fichier.
+
+-------------------------------------------------------------------------
+
+Description du produit:
+https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=301&id_rubrique=40
+
+-------------------------------------------------------------------------
+Format de la ligne csv :
+NUMERO;LAMBX;LAMBY;DATE;SWI_UNIF_MENS3
+-------------------------------------------------------------------------
+NUMERO: numéro de maille (de 2 à 9892, numérotation non continue)
+LAMBX: coordonnée 'Lambert II étendu' en hectomètres
+LAMBY: coordonnée 'Lambert II étendu' en hectomètres
+DATE: année,mois sous la forme AAAAMM
+SWI_UNIF_MENS3: SWI uniforme moyen sur les 3 derniers mois
+-------------------------------------------------------------------------
